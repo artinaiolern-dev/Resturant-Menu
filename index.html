@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>رستوران ماهان</title>
+  <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css" rel="stylesheet" type="text/css"/>
+
+
+  <!-- لوگوی تایتل -->
+
+  <link rel="icon" href="logo/logo1.png" type="image/png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== Header ===== -->
+  <header>
+    <img src="logo/logo1.png" alt="لوگو رستوران" class="logo">
+    <span class="restaurant-name">رستوران ماهان</span>
+  </header>
+
+  <!-- ===== Navigation / Categories ===== -->
+  <nav id="categories">
+    <button class="active" data-cat="all">همه</button>
+    <button data-cat="پیش‌غذا">پیش‌غذا</button>
+    <button data-cat="پیتزا">پیتزا</button>
+    <button data-cat="نوشیدنی">نوشیدنی</button>
+  </nav>
+
+  <!-- ===== Main / Menu ===== -->
+  <main id="menu">
+    <!-- کارت‌ها اینجا با JS ساخته می‌شوند -->
+  </main>
+
+  <!-- ===== Modal ===== -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <img id="modalImg" src="" alt="">
+      <h2 id="modalName"></h2>
+      <p id="modalDesc"></p>
+      <p id="modalPrice"></p>
+      <button id="closeModal" class="close-btn">بستن</button>
+    </div>
+  </div>
+
+  <!-- ===== Footer ===== -->
+<footer>
+  <div class="contact-info">
+    <p>📍 آدرس: خیابان نمونه، تهران</p>
+    <p>📞 تلفن: ۰۲۱-۱۲۳۴۵۶۷۸</p>
+  </div>
+  <div class="signature">طراحی توسط آرتین</div>
+</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
